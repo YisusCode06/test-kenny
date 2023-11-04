@@ -5,8 +5,8 @@ const request = require("request");
 const uuid = require("uuid");
 const axios = require("axios");
 //files
-const config = require("../config");
-const dialogflow = require("../dialogflow");
+const config = require("../scripts/config");
+const dialogflow = require("../scripts/dialogflow");
 const { structProtoToJson } = require("./helpers/structFunctions");
 
 // Messenger API parameters
